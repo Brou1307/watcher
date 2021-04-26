@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TV Show Search</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="app.css">
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-12 text-center mt-5">
+                <!-- <h1>Search Show or Movie</h1> -->
+                <form id="searchForm">
+                    <input type="text" autocomplete="off" placeholder="Movie or TV Show Title..." name="query">
+                    <button class="btn-primary">Search</button>
+                    <select class="select" aria-label="Default select example">
+                        <option class="option" selected value="All">All</option>
+                        <option class="option" value="Movie">Movies</option>
+                        <option class="option" value="Series">TV-Series</option>
+                        <option class="option" value="Name">People</option>
+                    </select>
+                </form>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-10 col-sm-12 movies text-center mt-5">
+
+                </div>
+            </div>
+        </div>
+        <select class="select2" aria-label="Default select example">
+            <option class="option2" selected value="nl">NL</option>
+            <option class="option2" value="be">BE</option>
+            <option class="option2" value="uk">UK</option>
+            <option class="option2" value="usa">USA</option>
+            <option class="option2" value="ar">AR</option>
+            <option class="option2" value="de">DE</option>
+            <option class="option2" value="fr">FR</option>
+            <option class="option2" value="pl">PL</option>
+            <option class="option2" value="br">BR</option>
+            <option class="option2" value="kr">KR</option>
+        </select>
+    </div>
+
+
+
+    <img class='begin' src='movie.png'>
+    <script src="app.js"></script>
+</body>
+
+</html>

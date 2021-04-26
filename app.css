@@ -1,0 +1,157 @@
+body{
+    background:linear-gradient(to right, rgb(0, 20, 39),rgb(172, 0, 12));
+}
+
+button {
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 80px;
+    width: 20%;
+    background-color: transparent !important;
+    border: 0 !important;
+    border-bottom: 0px solid white !important;
+    border-left: 2px solid rgb(91, 91, 119) !important;
+}
+
+select {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    background: transparent;
+    color: white;
+    border: 0;
+    
+}
+
+.option2 {
+    color: white;
+    background-color: black;
+    background: black;
+}
+
+.select {
+    width: 10%;
+    position: fixed;
+    top: 0;
+    right: 20%;
+    height: 77px;
+    border-radius: 0px;
+    background-color: transparent;
+    border-bottom: 0px;
+    border-right: 0px;
+    color: white;
+    border-left: 1px solid rgb(91, 91, 119) !important;
+    border-top: 3px solid rgb(91, 91, 119) !important;
+    color: white;
+    opacity: 0.7;
+    padding-left: 15px;
+}
+
+.begin {
+    width: 500px;
+    max-width: 100%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    opacity: 0.06;
+}
+
+.option {
+    color: black;
+}
+input {
+    width: 100%;
+    font-size: 2em;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 80px;
+    z-index: 0;
+    padding-top: 0;
+    padding-left: 30px;
+    color: white;
+    background:linear-gradient(to right bottom, rgb(121, 155, 187),rgba(172, 0, 12,0));
+    border-image: 
+      linear-gradient(
+        to right bottom , 
+        #faa307, 
+        rgba(0, 0, 0, 0)
+      )0;
+}
+
+::placeholder {
+    color: white;
+    opacity: 0.7;
+    font-size: 0.5em;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 25px;
+}
+
+.images {
+    margin: 10px;
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.movielist {
+    display: inline-block;
+    margin-bottom: 30px;
+    width: 264px;
+}
+
+.span {
+    display: block;
+    color: white;
+}
+
+.netflix {
+    margin-left: 10px;
+}
+
+.disney {
+    width: 10%;
+}
+
+h2 {
+    color: white;  
+}
+
+@media (max-width: 880px) {
+    .button {
+        width: 30%;
+        position: fixed;
+        top: 41px;
+        right: 0;
+        height: 37px;
+        border-radius: 0px;
+        background-color: transparent;
+        border-bottom: 0px;
+        border-right: 0px;
+        color: white;
+        border-left: 1px solid rgb(91, 91, 119) !important;
+        border-top: 1px solid rgb(91, 91, 119) !important;
+        color: white;
+        opacity: 0.7;
+        padding-left: 15px;
+    }
+
+    .select {
+        position: fixed;
+        right: 0;
+        top: 0;
+        height: 40px;
+        width: 30%;
+        background-color: transparent !important;
+        border: 0 !important;
+        border-bottom: 0px solid white !important;
+        border-left: 1px solid rgb(91, 91, 119) !important;
+        text-align-last:center
+    }
+}
